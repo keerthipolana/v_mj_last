@@ -1,0 +1,185 @@
+.navb{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.nava{
+    margin-left: 20px;
+}
+.nav{
+    
+    height:60px;
+    margin-top: 30px;
+    margin-left:30px ;
+   margin-right:30px ;
+    border: 3px solid oldlace;
+    
+}
+.search{
+    margin-top: 8px;
+}
+
+
+.row{
+    margin-top: 30px;
+    margin-left:30px ;
+   margin-right:30px ;
+     
+   
+}
+
+.refri{
+margin-top: 30px;
+}
+
+.col1{
+    border: 3px solid oldlace;
+    width: 300px;
+    float: right;
+}
+
+.col2{
+   margin-left: 1px;
+}
+
+.li{
+    text-decoration: none;
+}
+.hd{
+    text-align: center;
+}
+
+.card{
+    width: 300px;
+    margin-right: 30px;
+}
+
+.img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.left{
+    margin-left: 10px;
+}
+.top{
+    margin-top: 20px;
+}
+
+.size{
+    width: 250px;
+}
+
+.link{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.space{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    text-align: center;
+}
+.rsam{
+    width: 125px;
+}
+
+.rspace{
+    margin-top: 20px;
+}
+.wlg{
+    width: 400px;
+}
+.wlg10{
+    width:300px;
+}
+.wlg3{
+    width:450px;
+}
+.wlg4{
+    width:200px;
+}
+
+.mit{
+    width: 400px;
+}
+
+.footer{
+    margin-top: 30px;
+   
+}
+
+.home{
+    margin-top: 30px;
+    color:darkblue;
+
+}
+.daddy{
+  border-radius: 50%;
+  
+  padding: 40px;
+}
+.amma{
+    border-radius: 50%;
+ 
+  padding: 90px;
+}
+
+.founder{
+    margin-top: 30px;
+}
+/* .text{
+  padding-bottom:30px;
+} */
+
+.carousel{
+    margin-top: 60px;
+    
+    margin-left:30px ;
+    margin-right:30px ;
+} 
+
+.carouseli{
+    height:500px;
+}
+
+.products{
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.card{
+    margin-top: 30px;
+    width: 800px;
+    margin-left:30px ;
+    margin-right:30px ;
+}
+.p1{
+    width:270px;
+}
+.am4{
+    width:60px;
+}
+.og{
+    width: 500px;
+}
+.ws{
+    width: 200px;
+}
+.ws6{
+    width: 275px;
+}
+.wv{
+    width: 275px;
+}
+.ifb{
+    width: 275px;
+}
+.ifb2{
+    width: 250px;
+}
