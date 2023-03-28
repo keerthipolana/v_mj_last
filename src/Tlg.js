@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Tlg(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 <img src="lg.jpeg" alt="lg logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="tl1.webp" className='img mit' />
           <Card.Body>
             <Card.Title>81,000</Card.Title>
@@ -20,7 +21,7 @@ function Tlg(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="tl2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>31,000</Card.Title>
@@ -32,7 +33,7 @@ function Tlg(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tl3.webp" className='img mit' />
           <Card.Body>
             <Card.Title>14,000</Card.Title>
@@ -41,7 +42,7 @@ function Tlg(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tl4.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>17,000</Card.Title>
@@ -53,7 +54,7 @@ function Tlg(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tl5.jpg" className='img mit ' />
           <Card.Body>
             <Card.Title>39,000</Card.Title>
@@ -63,7 +64,7 @@ function Tlg(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tl6.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>40,000</Card.Title>

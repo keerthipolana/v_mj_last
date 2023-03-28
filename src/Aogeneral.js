@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Aogeneral(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="ogenerallogo.jpeg" alt="ogeneral logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="og1.webp" className='img og1' />
           <Card.Body>
             <Card.Title>60,000</Card.Title>
@@ -20,7 +21,7 @@ function Aogeneral(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="og2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>49,000</Card.Title>
@@ -32,7 +33,7 @@ function Aogeneral(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="og3.webp" className='img mit' />
           <Card.Body>
             <Card.Title>40,000</Card.Title>
@@ -41,7 +42,7 @@ function Aogeneral(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="og4.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>51,000</Card.Title>
@@ -53,7 +54,7 @@ function Aogeneral(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="og5.webp" className='img mit ' />
           <Card.Body>
             <Card.Title>64,000</Card.Title>
@@ -63,7 +64,7 @@ function Aogeneral(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="og6.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>53,000</Card.Title>

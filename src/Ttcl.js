@@ -5,14 +5,14 @@ import {Link} from 'react-router-dom';
 function Ttcl(){
     return(
         <>
-        
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="tcllogo.jpeg" alt="lg logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="ttcl1.jpg" className='img mit' />
           <Card.Body>
             <Card.Title>18,000</Card.Title>
@@ -21,7 +21,7 @@ function Ttcl(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="ttcl2.jpg" className='img mit' />
           <Card.Body>
             <Card.Title>23,000</Card.Title>

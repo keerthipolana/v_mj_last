@@ -8,7 +8,7 @@ function Luminous(){
        
 
         
-
+       <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
 
 
@@ -20,7 +20,7 @@ function Luminous(){
 
 
     <CardGroup>
-      <Card className='card rspace'>
+      <Card className='card rspace hover1'>
         <Card.Img variant="top" src="lu1.webp" className='img' />
         <Card.Body>
           <Card.Title>24,500</Card.Title>
@@ -29,7 +29,7 @@ function Luminous(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace hover1'>
         <Card.Img variant="top" src="lu2.webp" className='img' />
         <Card.Body>
           <Card.Title>16,000</Card.Title>
@@ -41,7 +41,7 @@ function Luminous(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="lu3.webp" className='img' />
         <Card.Body>
           <Card.Title>27,000</Card.Title>
@@ -50,7 +50,7 @@ function Luminous(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="lu4.webp" className='img am4' />
         <Card.Body>
           <Card.Title>19,000</Card.Title>
@@ -62,7 +62,7 @@ function Luminous(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="lu5.webp" className='img ' />
         <Card.Body>
           <Card.Title>25,000</Card.Title>
@@ -72,7 +72,7 @@ function Luminous(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="lu6.webp" className='img ' />
         <Card.Body>
           <Card.Title>29,500</Card.Title>

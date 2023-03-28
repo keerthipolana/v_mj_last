@@ -78,23 +78,24 @@ function App(){
         <>
         
         
-
+        <BrowserRouter>
 {/* NAV BAR */}
+<div>
     <Navbar bg="light" expand="lg" className='nav'>
       <Container fluid>
         <Navbar.Brand href="#"><b>Natraj Electronics</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbar">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           <Nav.Link href="/" className="navb nava">Home</Nav.Link>
-            <Nav.Link href="/About" className="navb">About</Nav.Link>
-            <Nav.Link href="/Service" className="navb">Service</Nav.Link>
-            <Nav.Link href="/Products" className="navb">Products</Nav.Link>
-            <Nav.Link href="/Contact" className="navb">Contact</Nav.Link>
+           <Link to="/" className="navb nava">Home</Link>
+            <Link to="/About" className='navb nava'>About</Link>
+            <Link to="/Service" className='navb nava'>Service</Link>
+            <Link to="/Products" className="navb nava">Products</Link>
+            <Link to="/Contact" className="navb nava">Contact</Link>
             
             
           </Nav>
@@ -110,7 +111,7 @@ function App(){
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
+    </div>
 
     
   
@@ -181,7 +182,7 @@ function App(){
     </div>
     
   <div class="col-12 col-md-8 " >
-  <BrowserRouter>
+  
     
     <Routes>
         
@@ -245,11 +246,12 @@ function App(){
         <Route path='/Aboutbosh' element={<Aboutbosh/>}/>
 
     </Routes>
-    </BrowserRouter>
+   
   </div>
   
   
 </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50982.72143599005!2d81.47150263144364!3d16.539026909257743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a362d11555557f3%3A0x1a0758db70000000!2sNatraj%20Electronics%20Shoppe!5e0!3m2!1sen!2sin!4v1680023996687!5m2!1sen!2sin" width="600" height="450" className='map' allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 {/* FOOTER */}
 
 
@@ -372,7 +374,7 @@ function App(){
     </MDBFooter>
 
     
-  
+    </BrowserRouter>
         </>
     )
 }

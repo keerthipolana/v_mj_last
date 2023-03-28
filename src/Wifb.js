@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Wifb(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
          <img src="ifb.jpeg" alt="ifb logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="ifb1.webp" className='img ifb' />
           <Card.Body>
             <Card.Title>39,000</Card.Title>
@@ -20,7 +21,7 @@ function Wifb(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="ifb2.webp" className='img ifb2' />
           <Card.Body>
             <Card.Title>19,000</Card.Title>

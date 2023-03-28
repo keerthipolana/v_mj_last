@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Rwhirlpool(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="whirlpoollogo.jpeg" alt="whirlpool  logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="rw1.webp" className='img' />
           <Card.Body>
             <Card.Title>26,000</Card.Title>
@@ -20,7 +21,7 @@ function Rwhirlpool(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="rw2.webp" className='img' />
           <Card.Body>
             <Card.Title>28,000</Card.Title>

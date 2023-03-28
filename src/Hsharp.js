@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Hsharp(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 <img src="sharp.jpeg" alt="sharp  logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace  hover1'>
           <Card.Img variant="top" src="hsharp.jpg" className='img' />
           <Card.Body>
             <Card.Title>3,700</Card.Title>
@@ -20,7 +21,7 @@ function Hsharp(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="hsharp2.jpg" className='img' />
           <Card.Body>
             <Card.Title>5,000</Card.Title>

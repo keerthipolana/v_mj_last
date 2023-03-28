@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Hiball(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 <img src="iballlogo.jpeg" alt="iball  logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace  hover1'>
           <Card.Img variant="top" src="iball1.webp" className='img' />
           <Card.Body>
             <Card.Title>3,700</Card.Title>
@@ -20,7 +21,7 @@ function Hiball(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="iball2.webp" className='img' />
           <Card.Body>
             <Card.Title>700</Card.Title>

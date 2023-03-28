@@ -6,7 +6,7 @@ function Rhaier(){
     return(
         <>
 
-
+<b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
         
 
@@ -16,7 +16,7 @@ function Rhaier(){
 
 
     <CardGroup>
-      <Card className='card rspace'>
+      <Card className='card rspace hover1'>
         <Card.Img variant="top" src="rh1.webp" className='img' />
         <Card.Body>
           <Card.Title>11,000</Card.Title>
@@ -25,7 +25,7 @@ function Rhaier(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace hover1'>
         <Card.Img variant="top" src="rh2.webp" className='img' />
         <Card.Body>
           <Card.Title>15,000</Card.Title>
@@ -37,7 +37,7 @@ function Rhaier(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh3.webp" className='img' />
         <Card.Body>
           <Card.Title>14,000</Card.Title>
@@ -46,7 +46,7 @@ function Rhaier(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh4.webp" className='img ' />
         <Card.Body>
           <Card.Title>12,700</Card.Title>
@@ -58,7 +58,7 @@ function Rhaier(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh5.webp" className='img ' />
         <Card.Body>
           <Card.Title>15,000</Card.Title>
@@ -68,7 +68,7 @@ function Rhaier(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh6.webp" className='img ' />
         <Card.Body>
           <Card.Title>37,000</Card.Title>
@@ -80,7 +80,7 @@ function Rhaier(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh7.webp" className='img ' />
         <Card.Body>
           <Card.Title>16,000</Card.Title>
@@ -89,7 +89,7 @@ function Rhaier(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh8.webp" className='img' />
         <Card.Body>
           <Card.Title>64,000</Card.Title>
@@ -101,7 +101,7 @@ function Rhaier(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh9.webp" className='img' />
         <Card.Body>
           <Card.Title>25,000</Card.Title>
@@ -110,7 +110,7 @@ function Rhaier(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rh10.webp" className='img rsam' />
         <Card.Body>
           <Card.Title>16,000</Card.Title>

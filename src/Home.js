@@ -2,11 +2,12 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
+import './style.css'
 function Home(){
     return(
         <>
         <center>
-        <b><h1 className="home">Natraj Electronics Shoppe</h1></b>
+        <b><h1 className="home bounce">Natraj Electronics Shoppe</h1></b>
         <h5>Key Principle:MaheshBabu.Polana</h5>
         </center>
 
@@ -19,7 +20,7 @@ function Home(){
       <Carousel.Item >
         <img
           className="d-block w-100 carouseli"
-          src="natrajs.webp"
+          src="shop.webp"
           alt="First slide"
           
         />
@@ -31,7 +32,7 @@ function Home(){
       <Carousel.Item>
         <img
           className="d-block w-100 carouseli"
-          src="shop.webp"
+          src="natraj4.webp"
           alt="Second slide"
         />
 
@@ -43,7 +44,7 @@ function Home(){
       <Carousel.Item>
         <img
           className="d-block w-100 carouseli"
-          src="natraj4.webp"
+          src="natrajs.webp"
           alt="Third slide"
         />
 
@@ -69,7 +70,7 @@ function Home(){
 
 
     <CardGroup >
-      <Card>
+      <Card  className='hover1'>
         <Card.Img variant="top" src="fridge.jpeg" className='p1' />
         <Card.Body>
           <Card.Title>Refrigerator</Card.Title>
@@ -77,7 +78,7 @@ function Home(){
         </Card.Body>
         
       </Card>
-      <Card>
+      <Card  className='hover1'>
         <Card.Img variant="top" src="wm.jpeg" />
         <Card.Body>
           <Card.Title>Washing Machine</Card.Title>
@@ -89,7 +90,7 @@ function Home(){
     </CardGroup>
 
     <CardGroup >
-      <Card>
+      <Card  className='hover1'>
         <Card.Img variant="top" src="homethreatre.jpeg" className='p1' />
         <Card.Body>
           <Card.Title>Home Theatre</Card.Title>
@@ -97,7 +98,7 @@ function Home(){
         </Card.Body>
         
       </Card>
-      <Card>
+      <Card className='hover1' >
         <Card.Img variant="top" src="printer.jpeg" />
         <Card.Body>
           <Card.Title>Printer</Card.Title>
@@ -108,7 +109,7 @@ function Home(){
       
     </CardGroup>
     <CardGroup >
-      <Card>
+      <Card className='hover1' >
         <Card.Img variant="top" src="phone.jpeg" className='p1' />
         <Card.Body>
           <Card.Title>Phone</Card.Title>
@@ -116,7 +117,7 @@ function Home(){
         </Card.Body>
         
       </Card>
-      <Card>
+      <Card className='hover1' >
         <Card.Img variant="top" src="laptop.jpeg" />
         <Card.Body>
           <Card.Title>Laptop</Card.Title>
@@ -133,7 +134,7 @@ function Home(){
 
 
     <CardGroup className='founder'>
-      <Card>
+      <Card className='hover1'>
         <div className='daddy'><Card.Img variant="top" src="daddy.jpg" className='daddy rounded-circle' /></div>
         <Card.Body>
           <Card.Title className='text'>Founder</Card.Title>
@@ -146,7 +147,7 @@ function Home(){
           <small className="text-muted">polana.maheshbabu@gmail.com</small>
         </Card.Footer>
       </Card>
-      <Card>
+      <Card className='hover1'>
         <Card.Img variant="top" src="amma.jpg" className='amma rounded-circle'/>
         <Card.Body>
           <Card.Title>Co-Founder</Card.Title>
@@ -160,6 +161,10 @@ function Home(){
       </Card>
       
     </CardGroup>
+
+   
+
+   
 
         </>
     )

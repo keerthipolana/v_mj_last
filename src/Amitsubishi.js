@@ -2,12 +2,12 @@ import './style.css'
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import {Link} from 'react-router-dom';
-function Amitsubishi(){
+function Amitsubishi(){ 
     return(
         <>
        
 
-
+       <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
 
         
@@ -18,7 +18,7 @@ function Amitsubishi(){
 
 
     <CardGroup>
-      <Card className='card rspace'>
+      <Card className='card rspace hover1 '>
         <Card.Img variant="top" src="mit1.jpg" className='img mit' />
         <Card.Body>
           <Card.Title>44,000</Card.Title>
@@ -27,7 +27,7 @@ function Amitsubishi(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace  hover1'>
         <Card.Img variant="top" src="mit2.jpg" className='img mit' />
         <Card.Body>
           <Card.Title>52,000</Card.Title>
@@ -39,7 +39,7 @@ function Amitsubishi(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top  hover1'>
         <Card.Img variant="top" src="mit3.webp" className='img mit' />
         <Card.Body>
           <Card.Title>39,000</Card.Title>
@@ -48,7 +48,7 @@ function Amitsubishi(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top  hover1'>
         <Card.Img variant="top" src="mit4.webp" className='img  mit' />
         <Card.Body>
           <Card.Title>38,000</Card.Title>
@@ -60,7 +60,7 @@ function Amitsubishi(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1 '>
         <Card.Img variant="top" src="mit5.webp" className='img mit ' />
         <Card.Body>
           <Card.Title>46,000</Card.Title>
@@ -70,7 +70,7 @@ function Amitsubishi(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1 '>
         <Card.Img variant="top" src="mit6.webp" className='img  mit' />
         <Card.Body>
           <Card.Title>57,000</Card.Title>

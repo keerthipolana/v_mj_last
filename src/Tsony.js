@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Tsony(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="sony.jpeg" alt="sony logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="ts1.webp" className='img mit' />
           <Card.Body>
             <Card.Title>70,000</Card.Title>
@@ -20,7 +21,7 @@ function Tsony(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="ts2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>25,000</Card.Title>
@@ -32,7 +33,7 @@ function Tsony(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="ts3.webp" className='img mit' />
           <Card.Body>
             <Card.Title>63,000</Card.Title>
@@ -41,7 +42,7 @@ function Tsony(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="ts4.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>27,000</Card.Title>
@@ -53,7 +54,7 @@ function Tsony(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="ts5.webp" className='img mit ' />
           <Card.Body>
             <Card.Title>47,000</Card.Title>
@@ -63,7 +64,7 @@ function Tsony(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="ts6.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>2,47,000</Card.Title>

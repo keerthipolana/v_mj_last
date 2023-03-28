@@ -7,14 +7,14 @@ function Rsamsung(){
     return(
         <>
         
-
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
       <img src="samlogo.jpeg" alt="samsung logo" width="200px" /><br/>
       
       
 
 
     <CardGroup>
-      <Card className='card rspace'>
+      <Card className='card rspace hover1'>
         <Card.Img variant="top" src="rsam1.webp" className='img' />
         <Card.Body>
           <Card.Title>35,000</Card.Title>
@@ -23,7 +23,7 @@ function Rsamsung(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace hover1'>
         <Card.Img variant="top" src="rsam2.webp" className='img' />
         <Card.Body>
           <Card.Title>18,000</Card.Title>
@@ -35,7 +35,7 @@ function Rsamsung(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="sam3.webp" className='img' />
         <Card.Body>
           <Card.Title>13,000</Card.Title>
@@ -44,7 +44,7 @@ function Rsamsung(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam4.webp" className='img ' />
         <Card.Body>
           <Card.Title>20,700</Card.Title>
@@ -56,7 +56,7 @@ function Rsamsung(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam5.webp" className='img ' />
         <Card.Body>
           <Card.Title>54,000</Card.Title>
@@ -66,7 +66,7 @@ function Rsamsung(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam6.webp" className='img ' />
         <Card.Body>
           <Card.Title>21,000</Card.Title>
@@ -78,7 +78,7 @@ function Rsamsung(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam7.webp" className='img ' />
         <Card.Body>
           <Card.Title>16,000</Card.Title>
@@ -87,7 +87,7 @@ function Rsamsung(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam8.webp" className='img' />
         <Card.Body>
           <Card.Title>18,000</Card.Title>
@@ -99,7 +99,7 @@ function Rsamsung(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam9.webp" className='img' />
         <Card.Body>
           <Card.Title>25,000</Card.Title>
@@ -108,7 +108,7 @@ function Rsamsung(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rsam10.webp" className='img rsam' />
         <Card.Body>
           <Card.Title>14,000</Card.Title>

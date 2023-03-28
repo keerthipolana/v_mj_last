@@ -8,7 +8,7 @@ function Wlg(){
         
        
 
-
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
 
         
@@ -19,7 +19,7 @@ function Wlg(){
 
 
     <CardGroup>
-      <Card className='card rspace '>
+      <Card className='card rspace  hover1'>
         <Card.Img variant="top" src="wlg.webp" className='img wlg' />
         <Card.Body>
           <Card.Title>52,000</Card.Title>
@@ -28,7 +28,7 @@ function Wlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace hover1'>
         <Card.Img variant="top" src="wlg2.webp" className='img wlg' />
         <Card.Body>
           <Card.Title>17,000</Card.Title>
@@ -40,7 +40,7 @@ function Wlg(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="lg3.webp" className='img wlg3' />
         <Card.Body>
           <Card.Title>14,000</Card.Title>
@@ -49,7 +49,7 @@ function Wlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg4.webp" className='img wlg4 ' />
         <Card.Body>
           <Card.Title>18,000</Card.Title>
@@ -61,7 +61,7 @@ function Wlg(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg5.webp" className='img wlg10 ' />
         <Card.Body>
           <Card.Title>49,000</Card.Title>
@@ -71,7 +71,7 @@ function Wlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg6.jpg" className='img  wlg10' />
         <Card.Body>
           <Card.Title>34,000</Card.Title>
@@ -83,7 +83,7 @@ function Wlg(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg7.webp" className='img wlg10 ' />
         <Card.Body>
           <Card.Title>14,000</Card.Title>
@@ -92,7 +92,7 @@ function Wlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg8.jpg" className='img wlg' />
         <Card.Body>
           <Card.Title>38,000</Card.Title>
@@ -104,7 +104,7 @@ function Wlg(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg9.webp" className='img wlg' />
         <Card.Body>
           <Card.Title>29,000</Card.Title>
@@ -113,7 +113,7 @@ function Wlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="wlg10.webp" className='img rsam wlg10' />
         <Card.Body>
           <Card.Title>34,000</Card.Title>

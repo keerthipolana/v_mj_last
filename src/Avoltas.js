@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Avoltas(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
          <img src="av1.jpeg" alt="voltas logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="av2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>33,000</Card.Title>
@@ -20,7 +21,7 @@ function Avoltas(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="av3.webp" className='img mit' />
           <Card.Body>
             <Card.Title>40,000</Card.Title>

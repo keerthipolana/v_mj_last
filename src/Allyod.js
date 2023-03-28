@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function Allyod(){
     return(
         <>
-        
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
         <img src="llyodlogo.jpeg" alt="llyod logo" width="200px" /><br/>
       
@@ -13,7 +13,7 @@ function Allyod(){
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="ll1.webp" className='img mit' />
           <Card.Body>
             <Card.Title>33,000</Card.Title>
@@ -22,7 +22,7 @@ function Allyod(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="ll2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>39,000</Card.Title>

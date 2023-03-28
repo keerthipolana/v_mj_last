@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 function Wsamsung(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="samlogo.jpeg" alt="lg logo" width="200px" /><br/>
       
       
@@ -20,7 +21,7 @@ function Wsamsung(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="wsam2.webp" className='img ws' />
           <Card.Body>
             <Card.Title>38,000</Card.Title>
@@ -32,7 +33,7 @@ function Wsamsung(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="wsam3.webp" className='img ws' />
           <Card.Body>
             <Card.Title>16,000</Card.Title>
@@ -41,7 +42,7 @@ function Wsamsung(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="wsam4.webp" className='img ws ' />
           <Card.Body>
             <Card.Title>17,000</Card.Title>
@@ -53,7 +54,7 @@ function Wsamsung(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="wsam5.webp" className='img ws ' />
           <Card.Body>
             <Card.Title>30,000</Card.Title>
@@ -63,7 +64,7 @@ function Wsamsung(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="wsam6.webp" className='img ws6 ' />
           <Card.Body>
             <Card.Title>23,000</Card.Title>

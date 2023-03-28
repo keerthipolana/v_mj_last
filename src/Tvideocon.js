@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Tvideocon(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
          <img src="videocon.jpeg" alt="videocon logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="tv1.webp" className='img mit' />
           <Card.Body>
             <Card.Title>8,000</Card.Title>
@@ -21,7 +22,7 @@ function Tvideocon(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="tv2.webp" className='img mit' />
           <Card.Body>
             <Card.Title>12,000</Card.Title>

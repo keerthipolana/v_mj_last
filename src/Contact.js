@@ -45,10 +45,11 @@ function Contact(){
       </Form.Group>
 
 
-      
-      <Button variant="primary" type="submit">
+      <center>
+      <Button  calssName="cbtn" variant="primary" type="submit">
         Submit
       </Button>
+      </center>
     </Form>
   
 

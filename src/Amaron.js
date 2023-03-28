@@ -7,7 +7,7 @@ function Amaron(){
         <>
         
 
-
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
 
 
         
@@ -18,7 +18,7 @@ function Amaron(){
 
 
     <CardGroup>
-      <Card className='card rspace'>
+      <Card className='card rspace hover1'>
         <Card.Img variant="top" src="am1.jpg" className='img' />
         <Card.Body>
           <Card.Title>3,500</Card.Title>
@@ -27,7 +27,7 @@ function Amaron(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left rspace'>
+      <Card className='card left rspace hover1'>
         <Card.Img variant="top" src="am2.jpg" className='img' />
         <Card.Body>
           <Card.Title>6,000</Card.Title>
@@ -39,7 +39,7 @@ function Amaron(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am3.jpg" className='img' />
         <Card.Body>
           <Card.Title>5,300</Card.Title>
@@ -48,7 +48,7 @@ function Amaron(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am4.jpg" className='img am4' />
         <Card.Body>
           <Card.Title>12,100</Card.Title>
@@ -60,7 +60,7 @@ function Amaron(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am5.jpg" className='img ' />
         <Card.Body>
           <Card.Title>6,800</Card.Title>
@@ -70,7 +70,7 @@ function Amaron(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am6.jpg" className='img ' />
         <Card.Body>
           <Card.Title>4,400</Card.Title>
@@ -82,7 +82,7 @@ function Amaron(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am7.jpg" className='img ' />
         <Card.Body>
           <Card.Title>5,300</Card.Title>
@@ -91,7 +91,7 @@ function Amaron(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am8.jpg" className='img' />
         <Card.Body>
           <Card.Title>6,500</Card.Title>
@@ -103,7 +103,7 @@ function Amaron(){
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am9.jpg" className='img' />
         <Card.Body>
           <Card.Title>13,100</Card.Title>
@@ -112,7 +112,7 @@ function Amaron(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="am10.jpg" className='img am4' />
         <Card.Body>
           <Card.Title>11,000</Card.Title>

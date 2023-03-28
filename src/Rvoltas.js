@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Rvoltas(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="av1.jpeg" alt="voltas logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="rv1.webp" className='img' />
           <Card.Body>
             <Card.Title>16,000</Card.Title>
@@ -20,7 +21,7 @@ function Rvoltas(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="rv2.webp" className='img' />
           <Card.Body>
             <Card.Title>18,000</Card.Title>
@@ -32,7 +33,7 @@ function Rvoltas(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="rv3.webp" className='img' />
           <Card.Body>
             <Card.Title>83,000</Card.Title>
@@ -41,7 +42,7 @@ function Rvoltas(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="rv4.webp" className='img ' />
           <Card.Body>
             <Card.Title>54,000</Card.Title>

@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Tsamsung(){
     return(
         <>
+        <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
         <img src="samlogo.jpeg" alt="samsung logo" width="200px" /><br/>
       
       
 
 
       <CardGroup>
-        <Card className='card rspace'>
+        <Card className='card rspace hover1'>
           <Card.Img variant="top" src="tsam1.webp" className='img mit' />
           <Card.Body>
             <Card.Title>14,000</Card.Title>
@@ -20,7 +21,7 @@ function Tsamsung(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card left rspace'>
+        <Card className='card left rspace hover1'>
           <Card.Img variant="top" src="tsam2.jpg" className='img mit' />
           <Card.Body>
             <Card.Title>30,000</Card.Title>
@@ -32,7 +33,7 @@ function Tsamsung(){
           </CardGroup>
   
           <CardGroup>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tsam3.webp" className='img mit' />
           <Card.Body>
             <Card.Title>14,000</Card.Title>
@@ -43,7 +44,7 @@ function Tsamsung(){
             </Card.Text>
           </Card.Body>
           </Card>
-        <Card className='card top'>
+        <Card className='card top hover1'>
           <Card.Img variant="top" src="tsam4.webp" className='img  mit' />
           <Card.Body>
             <Card.Title>32,000</Card.Title>

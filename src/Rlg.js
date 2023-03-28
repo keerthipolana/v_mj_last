@@ -5,13 +5,14 @@ import {Link} from 'react-router-dom';
 function Rlg(){
     return(
       <>
+      <b><h1 className='A'>Natraj Electronics Shoppe</h1></b>
       <img src="lg.jpeg" alt="lg logo" width="100px" /><br/>
       
       
 
 
     <CardGroup>
-      <Card className='card'>
+      <Card className='card hover1'>
         <Card.Img variant="top" src="rg1.webp" className='img' />
         <Card.Body>
           <Card.Title>16,700</Card.Title>
@@ -20,7 +21,7 @@ function Rlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card left'>
+      <Card className='card left hover1'>
         <Card.Img variant="top" src="rlg2.webp" className='img' />
         <Card.Body>
           <Card.Title>24,000</Card.Title>
@@ -32,7 +33,7 @@ function Rlg(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg3.jpg" className='img' />
         <Card.Body>
           <Card.Title>20,500</Card.Title>
@@ -41,7 +42,7 @@ function Rlg(){
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg4.jpg" className='img size' />
         <Card.Body>
           <Card.Title>20,700</Card.Title>
@@ -53,7 +54,7 @@ function Rlg(){
         </CardGroup>
 
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg5.jpg" className='img size' />
         <Card.Body>
           <Card.Title>24,000</Card.Title>
@@ -63,7 +64,7 @@ LG 246 L 3 Star Frost-Free Smart Inverter Wi-Fi Double Door Refrigerator (GL-T26
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg6.jpg" className='img size' />
         <Card.Body>
           <Card.Title>18,300</Card.Title>
@@ -75,7 +76,7 @@ LG 246 L 3 Star Frost-Free Smart Inverter Wi-Fi Double Door Refrigerator (GL-T26
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg7.webp" className='img ' />
         <Card.Body>
           <Card.Title>14,500</Card.Title>
@@ -84,7 +85,7 @@ LG 246 L 3 Star Frost-Free Smart Inverter Wi-Fi Double Door Refrigerator (GL-T26
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg8.jpg" className='img size' />
         <Card.Body>
           <Card.Title>29,000</Card.Title>
@@ -96,7 +97,7 @@ LG 246 L 3 Star Frost-Free Smart Inverter Wi-Fi Double Door Refrigerator (GL-T26
         </Card>
         </CardGroup>
         <CardGroup>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg10.webp" className='img' />
         <Card.Body>
           <Card.Title>13,000</Card.Title>
@@ -105,7 +106,7 @@ LG 246 L 3 Star Frost-Free Smart Inverter Wi-Fi Double Door Refrigerator (GL-T26
           </Card.Text>
         </Card.Body>
         </Card>
-      <Card className='card top'>
+      <Card className='card top hover1'>
         <Card.Img variant="top" src="rlg9.webp" className='img' />
         <Card.Body>
           <Card.Title>17,800</Card.Title>
