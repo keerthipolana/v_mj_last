@@ -84,12 +84,13 @@ function App(){
     <Navbar bg="light" expand="lg" className='nav'>
       <Container fluid>
         <Navbar.Brand href="#"><b>Natraj Electronics</b></Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" />
         <Navbar.Collapse id="navbar">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px' }}
             navbarScroll
+            
           >
            <Link to="/" className="navb nava">Home</Link>
             <Link to="/About" className='navb nava'>About</Link>
